@@ -6,7 +6,7 @@ import ComingSoonComp from "../components/ComingSoonComp/index";
 
 import { Open_Sans } from "next/font/google";
 
-const openSans = Open_Sans({ subsets: ["latin"], weight: `[300, 400]` });
+const openSans = Open_Sans({ subsets: ["latin"], weight: ["300", "400"] });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
