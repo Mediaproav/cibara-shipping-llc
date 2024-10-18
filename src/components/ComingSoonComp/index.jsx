@@ -15,7 +15,7 @@ const index = () => {
   };
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen"
+      className="fade-in flex flex-col items-center justify-center h-screen"
       style={bgStyle}
     >
       <Image src={CibaraLogo} width={200} height={200} alt="" />
